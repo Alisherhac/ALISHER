@@ -1,0 +1,123 @@
+html{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+   
+}
+.items{
+    padding-right: 15px;
+    transition: all 0.5s ease;
+    font-size: 25px;
+}
+.bt{
+    background-color: orangered;
+    width: 150px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    transition: all 1s ease;
+
+}
+.book{
+    color: white;
+   font-weight: 100;
+}
+.logonav{
+    position: relative;
+    right: 100px;
+}
+.items:hover{
+  color: orangered;
+  cursor: pointer;
+}
+.bt:hover{
+    background-color:skyblue;
+    cursor: pointer;
+}
+.smartine{
+    font-size: 150px;
+    font-weight: 300;
+}
+.seatext{
+   
+    text-align: center;
+    //   border: 1px solid black;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    
+    
+}
+.martext{
+    position: relative;
+    bottom: 110px;
+   font-weight: 100;
+   font-size: 25px;
+}
+.bigsea{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/xbanner_bg.png.pagespeed.ic.wPlBrxd3rO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+}
+.botn{
+    background-color: orangered;
+    width: 150px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+}
+.botn:hover{
+    background-color: rgb(82, 82, 255);
+    cursor: pointer;
+}
+.navba2{
+
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+
+}
+.item{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.box2{
+   
+    width: 50%;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    bottom: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.item:hover{
+    border-bottom: 1px rgb(59, 56, 247 ) solid;
+    cursor: pointer;
+    
+
+}
